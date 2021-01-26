@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.eswm.lyy.generator.dao.OpinfootherlistDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.eswm.lyy.generator.entity.OpinfootherlistEntity" id="opinfootherlistMap">
+        <result property="opriskcode" column="opRiskCode"/>
+        <result property="opfailbreath" column="opFailBreath"/>
+        <result property="unexpectedsecop" column="unexpectedSecOp"/>
+        <result property="opsepticemiacode" column="opSepticemiaCode"/>
+        <result property="opbeforeprevendrug" column="opBeforePrevenDrug"/>
+        <result property="hospcode" column="hospCode"/>
+        <result property="opcomp" column="opComp"/>
+        <result property="opbefordays" column="opBeforDays"/>
+        <result property="opleftforeigncode" column="opLeftForeignCode"/>
+        <result property="opbefordosedate" column="opBeforDoseDate"/>
+        <result property="ophemorrhage" column="opHemorrhage"/>
+        <result property="ordernum" column="orderNum"/>
+        <result property="opfracture" column="opFracture"/>
+        <result property="anesthesiacomp" column="anesthesiaComp"/>
+        <result property="times" column="times"/>
+        <result property="opfracturecode" column="opFractureCode"/>
+        <result property="unexpectedsecopcode" column="unexpectedSecOpCode"/>
+        <result property="opcompcode" column="opCompCode"/>
+        <result property="isemergency" column="isEmergency"/>
+        <result property="ophemorrhagecode" column="opHemorrhageCode"/>
+        <result property="opoperationtypecode" column="opOperationTypeCode"/>
+        <result property="opphydisordercode" column="opPhyDisorderCode"/>
+        <result property="openddate" column="opEndDate"/>
+        <result property="selectiveop" column="selectiveOp"/>
+        <result property="incisionposition" column="incisionPosition"/>
+        <result property="opcode" column="opcode"/>
+        <result property="opwoundsplit" column="opWoundSplit"/>
+        <result property="selectiveopcode" column="selectiveOpCode"/>
+        <result property="opleftforeign" column="opLeftForeign"/>
+        <result property="narcosisbegintime" column="narcosisbegintime"/>
+        <result property="optimes" column="optimes"/>
+        <result property="opwoundsplitcode" column="opWoundSplitCode"/>
+        <result property="prn" column="prn"/>
+        <result property="opcomplication" column="opComplication"/>
+        <result property="opbegindate" column="opBeginDate"/>
+        <result property="opbeforeprevendrugcode" column="opBeforePrevenDrugCode"/>
+        <result property="oppulembolism" column="opPulEmbolism"/>
+        <result property="id" column="id"/>
+        <result property="opfailbreathcode" column="opFailBreathCode"/>
+        <result property="asa" column="asa"/>
+        <result property="opcutinfect" column="opCutInfect"/>
+        <result property="opvenous" column="opVenous"/>
+        <result property="asacode" column="asaCode"/>
+        <result property="opcutinfectcode" column="opCutInfectCode"/>
+        <result property="opvenouscode" column="opVenousCode"/>
+        <result property="oprisk" column="opRisk"/>
+        <result property="opname" column="opname"/>
+        <result property="opoperationtype" column="opOperationType"/>
+        <result property="opphydisorder" column="opPhyDisorder"/>
+        <result property="opprevendrugday" column="opPrevenDrugDay"/>
+        <result property="isemergencycode" column="isEmergencyCode"/>
+        <result property="oppulembolismcode" column="opPulEmbolismCode"/>
+        <result property="anesthesiacompcode" column="anesthesiaCompCode"/>
+        <result property="opsepticemia" column="opSepticemia"/>
+    </resultMap>
+
+
+</mapper>

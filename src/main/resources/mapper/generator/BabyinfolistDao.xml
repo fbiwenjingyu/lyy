@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.eswm.lyy.generator.dao.BabyinfolistDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.eswm.lyy.generator.entity.BabyinfolistEntity" id="babyinfolistMap">
+        <result property="checkch" column="checkCh"/>
+        <result property="deliverycode" column="deliveryCode"/>
+        <result property="hospcode" column="hospCode"/>
+        <result property="babybreath" column="babyBreath"/>
+        <result property="checkhearing" column="checkHearing"/>
+        <result property="babyleavecode" column="babyLeaveCode"/>
+        <result property="babyweight" column="babyWeight"/>
+        <result property="babyleave" column="babyLeave"/>
+        <result property="outcomecode" column="outcomeCode"/>
+        <result property="babyrescue" column="babyRescue"/>
+        <result property="checkg6pd" column="checkG6pd"/>
+        <result property="babynum" column="babyNum"/>
+        <result property="checkcahcode" column="checkCahCode"/>
+        <result property="apgscore" column="apgScore"/>
+        <result property="resultcode" column="resultCode"/>
+        <result property="result" column="result"/>
+        <result property="babysexcode" column="babySexCode"/>
+        <result property="checkhearingcode" column="checkHearingCode"/>
+        <result property="outcome" column="outcome"/>
+        <result property="delivery" column="delivery"/>
+        <result property="checkcah" column="checkCah"/>
+        <result property="prn" column="prn"/>
+        <result property="checkpkucode" column="checkPkuCode"/>
+        <result property="checkpku" column="checkPku"/>
+        <result property="babysex" column="babySex"/>
+        <result property="checkg6pdcode" column="checkG6pdCode"/>
+        <result property="times" column="times"/>
+        <result property="babysucscue" column="babySucScue"/>
+        <result property="babybreathcode" column="babyBreathCode"/>
+        <result property="checkchcode" column="checkChCode"/>
+    </resultMap>
+
+
+</mapper>

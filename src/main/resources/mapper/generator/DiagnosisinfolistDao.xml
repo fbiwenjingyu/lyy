@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.eswm.lyy.generator.dao.DiagnosisinfolistDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.eswm.lyy.generator.entity.DiagnosisinfolistEntity" id="diagnosisinfolistMap">
+        <result property="hospcode" column="hospCode"/>
+        <result property="diagtype" column="diagType"/>
+        <result property="leave" column="leave"/>
+        <result property="id" column="id"/>
+        <result property="conditioncode" column="conditionCode"/>
+        <result property="times" column="times"/>
+        <result property="diagname" column="diagName"/>
+        <result property="leavecode" column="leaveCode"/>
+        <result property="diagtimes" column="diagTimes"/>
+        <result property="condition" column="condition"/>
+        <result property="doctdiag" column="doctDiag"/>
+        <result property="prn" column="prn"/>
+        <result property="icd" column="icd"/>
+    </resultMap>
+
+
+</mapper>

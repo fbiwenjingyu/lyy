@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.eswm.lyy.generator.dao.IcuinfolistDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.eswm.lyy.generator.entity.IcuinfolistEntity" id="icuinfolistMap">
+        <result property="outtime" column="outTime"/>
+        <result property="prn" column="prn"/>
+        <result property="id" column="id"/>
+        <result property="icuname" column="icuName"/>
+        <result property="times" column="times"/>
+        <result property="opintime" column="opInTime"/>
+        <result property="icucode" column="icuCode"/>
+        <result property="hospcode" column="hospCode"/>
+    </resultMap>
+
+
+</mapper>

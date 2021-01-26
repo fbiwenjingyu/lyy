@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.eswm.lyy.generator.dao.OperationinfolistDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.eswm.lyy.generator.entity.OperationinfolistEntity" id="operationinfolistMap">
+        <result property="surgeon" column="surgeon"/>
+        <result property="opdate" column="opDate"/>
+        <result property="id" column="id"/>
+        <result property="surgicallevelcode" column="surgicalLevelCode"/>
+        <result property="narcosisdoct" column="narcosisDoct"/>
+        <result property="narcosiscode" column="narcosisCode"/>
+        <result property="times" column="times"/>
+        <result property="heal" column="heal"/>
+        <result property="ismainoperation" column="isMainOperation"/>
+        <result property="selectiveopcode" column="selectiveOpCode"/>
+        <result property="isdsaangcode" column="isDsaAngCode"/>
+        <result property="hospcode" column="hospCode"/>
+        <result property="narcosis" column="narcosis"/>
+        <result property="surgeon2code" column="surgeon2code"/>
+        <result property="incision" column="incision"/>
+        <result property="healcode" column="healCode"/>
+        <result property="surgeon2" column="surgeon2"/>
+        <result property="selectiveop" column="selectiveOp"/>
+        <result property="surgicallevel" column="surgicalLevel"/>
+        <result property="surgeon1code" column="surgeon1code"/>
+        <result property="opcode" column="opCode"/>
+        <result property="surgeon1" column="surgeon1"/>
+        <result property="incisioncode" column="incisionCode"/>
+        <result property="surgeoncode" column="surgeonCode"/>
+        <result property="op" column="op"/>
+        <result property="prn" column="prn"/>
+        <result property="narcosisdoctcode" column="narcosisDoctCode"/>
+        <result property="optimes" column="opTimes"/>
+        <result property="isdsaang" column="isDsaAng"/>
+    </resultMap>
+
+
+</mapper>
