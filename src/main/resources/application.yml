@@ -11,6 +11,8 @@ spring:
     password: 111111
   resources:
     static-locations: classpath:/static/,classpath:/views/
+  mvc:
+    date-format: yyyy-MM-dd HH:mm:ss
 
 mybatis-plus:
   mapperLocations: classpath:mapper/**/*.xml

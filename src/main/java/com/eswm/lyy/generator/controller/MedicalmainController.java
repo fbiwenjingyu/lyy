@@ -104,6 +104,11 @@ public class MedicalmainController {
         return R.ok();
     }
 
+    /**
+     * code    0:成功返回   1: 记录不存在   2：记录未审核通过
+     * @param barCode
+     * @return
+     */
     @RequestMapping("/queryByBarCode")
     public R queryByBarCode(@RequestParam String barCode){
         JSONObject data = new JSONObject();

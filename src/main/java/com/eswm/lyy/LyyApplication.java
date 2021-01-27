@@ -16,7 +16,7 @@ public class LyyApplication {
         SpringApplication.run(LyyApplication.class, args);
     }
 
-    @Bean
+    /*@Bean
     public HttpMessageConverters fastJsonHttpMessageConverters() {
         //1、定义一个convert转换消息的对象
         FastJsonHttpMessageConverter fastConverter = new FastJsonHttpMessageConverter();
@@ -28,6 +28,6 @@ public class LyyApplication {
         //4、将convert添加到converters中
         HttpMessageConverter<?> converter = fastConverter;
         return new HttpMessageConverters(converter);
-    }
+    }*/
 
 }

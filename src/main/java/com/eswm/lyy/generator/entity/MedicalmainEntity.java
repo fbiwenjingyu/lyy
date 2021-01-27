@@ -1,5 +1,6 @@
 package com.eswm.lyy.generator.entity;
 
+import com.alibaba.fastjson.annotation.JSONField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 
@@ -7,6 +8,7 @@ import java.math.BigDecimal;
 import java.io.Serializable;
 import java.util.Date;
 import lombok.Data;
+import org.springframework.format.annotation.DateTimeFormat;
 
 /**
  * 病案首页主信息
@@ -64,6 +66,8 @@ public class MedicalmainEntity implements Serializable {
 	/**
 	 * 出生日期
 	 */
+	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	@JSONField(format = "yyyy-MM-dd HH:mm:ss")
 	private Date birthday;
 	/**
 	 * 年龄
@@ -220,6 +224,8 @@ public class MedicalmainEntity implements Serializable {
 	/**
 	 * 输入日期
 	 */
+	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	@JSONField(format = "yyyy-MM-dd HH:mm:ss")
 	private Date inputdate;
 	/**
 	 * 入院途径，编码
@@ -240,6 +246,8 @@ public class MedicalmainEntity implements Serializable {
 	/**
 	 * 入院日期
 	 */
+	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	@JSONField(format = "yyyy-MM-dd HH:mm:ss")
 	private Date indate;
 	/**
 	 * 入院时间
@@ -264,6 +272,8 @@ public class MedicalmainEntity implements Serializable {
 	/**
 	 * 首次转科日期
 	 */
+	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	@JSONField(format = "yyyy-MM-dd HH:mm:ss")
 	private Date transferdate;
 	/**
 	 * 首次转科时间
@@ -280,6 +290,8 @@ public class MedicalmainEntity implements Serializable {
 	/**
 	 * 出院日期
 	 */
+	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	@JSONField(format = "yyyy-MM-dd HH:mm:ss")
 	private Date leavedate;
 	/**
 	 * 出院时间
@@ -580,6 +592,8 @@ public class MedicalmainEntity implements Serializable {
 	/**
 	 * 质控日期
 	 */
+	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	@JSONField(format = "yyyy-MM-dd HH:mm:ss")
 	private Date qualitydate;
 	/**
 	 * 离院方式，编码
@@ -832,6 +846,8 @@ public class MedicalmainEntity implements Serializable {
 	/**
 	 * 创建时间
 	 */
+	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	@JSONField(format = "yyyy-MM-dd HH:mm:ss")
 	private Date ctime;
 	/**
 	 * 审核结果 
@@ -844,6 +860,8 @@ public class MedicalmainEntity implements Serializable {
 	/**
 	 * 质控时间
 	 */
+	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	@JSONField(format = "yyyy-MM-dd HH:mm:ss")
 	private Date qualitytime;
 	/**
 	 * 病案状态 0未完成 1已完成
@@ -860,6 +878,8 @@ public class MedicalmainEntity implements Serializable {
 	/**
 	 * 审核通过时间
 	 */
+	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	@JSONField(format = "yyyy-MM-dd HH:mm:ss")
 	private Date reviewpasstime;
 	/**
 	 * 病案回收标志 0未回收 1 已回收
@@ -868,6 +888,8 @@ public class MedicalmainEntity implements Serializable {
 	/**
 	 * 病案第一次接收时间
 	 */
+	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	@JSONField(format = "yyyy-MM-dd HH:mm:ss")
 	private Date firstreceivetime;
 	/**
 	 * 归档天数
@@ -876,6 +898,8 @@ public class MedicalmainEntity implements Serializable {
 	/**
 	 * 回收时间
 	 */
+	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	@JSONField(format = "yyyy-MM-dd HH:mm:ss")
 	private Date returntime;
 	/**
 	 * 住院流水号

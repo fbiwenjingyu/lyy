@@ -1,5 +1,6 @@
 package com.eswm.lyy.generator.entity;
 
+import com.alibaba.fastjson.annotation.JSONField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 
@@ -7,6 +8,7 @@ import java.math.BigDecimal;
 import java.io.Serializable;
 import java.util.Date;
 import lombok.Data;
+import org.springframework.format.annotation.DateTimeFormat;
 
 /**
  * ${comments}
@@ -59,6 +61,8 @@ public class OpinfootherlistEntity implements Serializable {
 	/**
 	 * $column.comments
 	 */
+	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	@JSONField(format = "yyyy-MM-dd HH:mm:ss")
 	private Date opbefordosedate;
 	/**
 	 * $column.comments
@@ -111,6 +115,8 @@ public class OpinfootherlistEntity implements Serializable {
 	/**
 	 * $column.comments
 	 */
+	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	@JSONField(format = "yyyy-MM-dd HH:mm:ss")
 	private Date openddate;
 	/**
 	 * $column.comments
@@ -139,6 +145,8 @@ public class OpinfootherlistEntity implements Serializable {
 	/**
 	 * $column.comments
 	 */
+	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	@JSONField(format = "yyyy-MM-dd HH:mm:ss")
 	private Date narcosisbegintime;
 	/**
 	 * $column.comments
@@ -159,6 +167,8 @@ public class OpinfootherlistEntity implements Serializable {
 	/**
 	 * $column.comments
 	 */
+	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	@JSONField(format = "yyyy-MM-dd HH:mm:ss")
 	private Date opbegindate;
 	/**
 	 * $column.comments

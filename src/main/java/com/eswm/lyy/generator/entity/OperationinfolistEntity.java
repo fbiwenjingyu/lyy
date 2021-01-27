@@ -1,11 +1,13 @@
 package com.eswm.lyy.generator.entity;
 
+import com.alibaba.fastjson.annotation.JSONField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 
 import java.io.Serializable;
 import java.util.Date;
 import lombok.Data;
+import org.springframework.format.annotation.DateTimeFormat;
 
 /**
  * ${comments}
@@ -26,6 +28,8 @@ public class OperationinfolistEntity implements Serializable {
 	/**
 	 * $column.comments
 	 */
+	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	@JSONField(format = "yyyy-MM-dd HH:mm:ss")
 	private Date opdate;
 	/**
 	 * $column.comments

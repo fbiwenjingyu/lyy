@@ -1,5 +1,6 @@
 package com.eswm.lyy.generator.entity;
 
+import com.alibaba.fastjson.annotation.JSONField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 
@@ -7,6 +8,7 @@ import java.math.BigDecimal;
 import java.io.Serializable;
 import java.util.Date;
 import lombok.Data;
+import org.springframework.format.annotation.DateTimeFormat;
 
 /**
  * ${comments}
@@ -476,6 +478,8 @@ public class MedicalmainotherEntity implements Serializable {
 	/**
 	 * $column.comments
 	 */
+	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	@JSONField(format = "yyyy-MM-dd HH:mm:ss")
 	private Date primaryfocusend;
 	/**
 	 * $column.comments
@@ -692,6 +696,8 @@ public class MedicalmainotherEntity implements Serializable {
 	/**
 	 * $column.comments
 	 */
+	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	@JSONField(format = "yyyy-MM-dd HH:mm:ss")
 	private Date regionallymphbegin;
 	/**
 	 * $column.comments
@@ -864,6 +870,8 @@ public class MedicalmainotherEntity implements Serializable {
 	/**
 	 * $column.comments
 	 */
+	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	@JSONField(format = "yyyy-MM-dd HH:mm:ss")
 	private Date outicudate;
 	/**
 	 * $column.comments
@@ -1084,6 +1092,8 @@ public class MedicalmainotherEntity implements Serializable {
 	/**
 	 * $column.comments
 	 */
+	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	@JSONField(format = "yyyy-MM-dd HH:mm:ss")
 	private Date birthdaytime;
 	/**
 	 * $column.comments
@@ -1092,6 +1102,8 @@ public class MedicalmainotherEntity implements Serializable {
 	/**
 	 * $column.comments
 	 */
+	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	@JSONField(format = "yyyy-MM-dd HH:mm:ss")
 	private Date primaryfocusbegin;
 	/**
 	 * $column.comments
@@ -1364,6 +1376,8 @@ public class MedicalmainotherEntity implements Serializable {
 	/**
 	 * $column.comments
 	 */
+	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	@JSONField(format = "yyyy-MM-dd HH:mm:ss")
 	private Date metastasesbegin;
 	/**
 	 * $column.comments
@@ -1376,6 +1390,8 @@ public class MedicalmainotherEntity implements Serializable {
 	/**
 	 * $column.comments
 	 */
+	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	@JSONField(format = "yyyy-MM-dd HH:mm:ss")
 	private Date diagdate;
 	/**
 	 * $column.comments
@@ -1488,6 +1504,8 @@ public class MedicalmainotherEntity implements Serializable {
 	/**
 	 * $column.comments
 	 */
+	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	@JSONField(format = "yyyy-MM-dd HH:mm:ss")
 	private Date metastasesend;
 	/**
 	 * $column.comments
@@ -1496,6 +1514,8 @@ public class MedicalmainotherEntity implements Serializable {
 	/**
 	 * $column.comments
 	 */
+	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	@JSONField(format = "yyyy-MM-dd HH:mm:ss")
 	private Date deaddate;
 	/**
 	 * $column.comments
@@ -1668,6 +1688,8 @@ public class MedicalmainotherEntity implements Serializable {
 	/**
 	 * $column.comments
 	 */
+	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	@JSONField(format = "yyyy-MM-dd HH:mm:ss")
 	private Date inicudate;
 	/**
 	 * $column.comments
@@ -1756,6 +1778,8 @@ public class MedicalmainotherEntity implements Serializable {
 	/**
 	 * $column.comments
 	 */
+	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	@JSONField(format = "yyyy-MM-dd HH:mm:ss")
 	private Date regionallymphend;
 	/**
 	 * $column.comments
