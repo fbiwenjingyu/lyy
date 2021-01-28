@@ -10,11 +10,7 @@ import com.eswm.lyy.generator.entity.*;
 import com.eswm.lyy.generator.service.*;
 import com.eswm.lyy.generator.utils.R;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import com.eswm.lyy.generator.utils.PageUtils;
 
@@ -109,6 +105,7 @@ public class MedicalmainController {
      * @param barCode
      * @return
      */
+    @CrossOrigin
     @RequestMapping("/queryByBarCode")
     public R queryByBarCode(@RequestParam String barCode){
         JSONObject data = new JSONObject();
